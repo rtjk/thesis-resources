@@ -31,3 +31,5 @@
   * Talk - Post-Quantum Signatures in DNSSEC **[Jason Goertzen @ PQCrypto 2023]**
     * [Video](https://www.youtube.com/watch?v=53rqt3xBC1s)
     * [Slides](https://pqcrypto2023.umiacs.io/slides/5.1.pdf)
+* Basics
+  * [Playist - Domain Name System (DNS) 101 Miniseries](https://www.youtube.com/playlist?list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
