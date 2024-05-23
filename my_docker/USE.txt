@@ -1,0 +1,67 @@
+
+
+#############################################################################################################################
+	CURL_MY
+#############################################################################################################################
+
+cd ../curl_my
+
+../docker-nuke.sh
+
+docker build -t oqs-curl .
+docker build -t oqs-curl --build-arg SIG_ALG_CA=CROSSrsdp128balanced --build-arg SIG_ALG_SERVER=CROSSrsdp128fast .
+
+docker run -it --user root oqs-curl sh
+
+	@in
+
+alias ll='ls -alF'
+cd /opt/oqssa/bin
+
+openssl s_server -cert /opt/test/server.crt -key /opt/test/server.key -groups kyber512 -www -tls1_3 -accept localhost:4433&
+openssl s_time -connect :4433 -new -time 5 -verify 1 | grep connections
+
+openssl x509 -in /opt/oqssa/bin/CA.crt -noout -text | head -33			# self signed fake-CA (uses pqc)
+openssl x509 -in /opt/test/server.crt -noout -text | head -33			# server cert, signed by fake-CA
+openssl x509 -in /opt/oqssa/oqs-bundle.pem -noout -text | head -33		# LE cert + fake-CA cert (use cat to see both)
+openssl x509 -in /opt/oqssa/oqs-testca.pem -noout -text | head -33		# test website cert, never used
+
+#############################################################################################################################
+	HTTPD_MY
+#############################################################################################################################
+
+cd ../httpd_my
+
+docker build --tag oqs-httpd-img .
+docker build --build-arg SIG_ALG_CA=CROSSrsdp128balanced --build-arg SIG_ALG_SERVER=CROSSrsdp128fast --tag oqs-httpd-img .
+
+docker network create httpd-test
+
+docker run --detach --rm --network httpd-test --name oqs-httpd -p 4433:4433 oqs-httpd-img
+
+docker run --network httpd-test -it oqs-curl curl -k https://oqs-httpd:4433 --curves kyber768
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
