@@ -18,7 +18,7 @@
   * [Internet Draft 1](https://datatracker.ietf.org/doc/draft-harvey-cfrg-mtl-mode/)
   * [Internet Draft 2](https://datatracker.ietf.org/doc/draft-fregly-dnsop-slh-dsa-mtl-dnssec/)
   * Talk - Merkle Tree Ladder Mode: Reducing The Size Impact Of NIST PQC Signature Algorithms In Practice **[Burt Kaliski @ RSA Conference 2023]**
-    * [Video](https://www.youtube.com/watch?v=A-URHecXSOo&t=1429s)
+    * [Video](https://www.youtube.com/watch?v=A-URHecXSOo&t=1429s) :zap:
     * [Slides](https://static.rainfocus.com/rsac/us23/sess/1675971858912001b6oV/finalwebsite/2023_USA23_CRYP-T08_01_Digital_Signatures_1682305725006001Sd68.pdf)
   * Talk - Merkle Tree Ladder Mode: Reducing the Size Impact of NIST PQC Signature Algorithms in Practice **[Burt Kaliski @ Fourth PQC Standardization Conference]**
     * [Video from 1:08:12](https://www.nist.gov/video/fourth-pqc-standardization-conference-virtual-day-3-part-1)
