@@ -1,0 +1,665 @@
+mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ ./measure.sh 
+Mon Sep 16 20:57:54 CEST 2024
+CA: ed25519
+KEM: x25519
+Time: 5
+Traffic Control: OFF (2ms 500mbps)
+--------
+Server: ed25519
+469 /opt/test/server.crt
+5677 connections in 2.94s; 1930.95 connections/user sec, bytes read 0
+5677 connections in 6 real seconds, 0 bytes read per connection
+Server: ed448
+501 /opt/test/server.crt
+3978 connections in 2.55s; 1560.00 connections/user sec, bytes read 0
+3978 connections in 6 real seconds, 0 bytes read per connection
+Server: dilithium2
+2220 /opt/test/server.crt
+5134 connections in 2.36s; 2175.42 connections/user sec, bytes read 0
+5134 connections in 6 real seconds, 0 bytes read per connection
+Server: dilithium3
+3085 /opt/test/server.crt
+4574 connections in 2.20s; 2079.09 connections/user sec, bytes read 0
+4574 connections in 6 real seconds, 0 bytes read per connection
+Server: dilithium5
+3950 /opt/test/server.crt
+4459 connections in 2.35s; 1897.45 connections/user sec, bytes read 0
+4459 connections in 6 real seconds, 0 bytes read per connection
+Server: mldsa44
+2220 /opt/test/server.crt
+5267 connections in 2.38s; 2213.03 connections/user sec, bytes read 0
+5267 connections in 6 real seconds, 0 bytes read per connection
+Server: mldsa65
+3085 /opt/test/server.crt
+4579 connections in 2.21s; 2071.95 connections/user sec, bytes read 0
+4579 connections in 6 real seconds, 0 bytes read per connection
+Server: mldsa87
+3950 /opt/test/server.crt
+4517 connections in 2.34s; 1930.34 connections/user sec, bytes read 0
+4517 connections in 6 real seconds, 0 bytes read per connection
+Server: falcon512
+1647 /opt/test/server.crt
+4215 connections in 2.13s; 1978.87 connections/user sec, bytes read 0
+4215 connections in 6 real seconds, 0 bytes read per connection
+Server: falconpadded512
+1647 /opt/test/server.crt
+3981 connections in 1.95s; 2041.54 connections/user sec, bytes read 0
+3981 connections in 6 real seconds, 0 bytes read per connection
+Server: falcon1024
+2862 /opt/test/server.crt
+3179 connections in 1.75s; 1816.57 connections/user sec, bytes read 0
+3179 connections in 6 real seconds, 0 bytes read per connection
+Server: falconpadded1024
+2862 /opt/test/server.crt
+3145 connections in 1.74s; 1807.47 connections/user sec, bytes read 0
+3145 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake128fsimple
+473 /opt/test/server.crt
+246 connections in 0.48s; 512.50 connections/user sec, bytes read 0
+246 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake128ssimple
+473 /opt/test/server.crt
+14 connections in 0.02s; 700.00 connections/user sec, bytes read 0
+14 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake192fsimple
+493 /opt/test/server.crt
+155 connections in 0.40s; 387.50 connections/user sec, bytes read 0
+155 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake192ssimple
+493 /opt/test/server.crt
+8 connections in 0.02s; 400.00 connections/user sec, bytes read 0
+8 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake256fsimple
+518 /opt/test/server.crt
+79 connections in 0.23s; 343.48 connections/user sec, bytes read 0
+79 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake256ssimple
+518 /opt/test/server.crt
+9 connections in 0.02s; 450.00 connections/user sec, bytes read 0
+9 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo1
+2017 /opt/test/server.crt
+4815 connections in 2.33s; 2066.52 connections/user sec, bytes read 0
+4815 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo2
+7867 /opt/test/server.crt
+5368 connections in 2.70s; 1988.15 connections/user sec, bytes read 0
+5368 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo3
+4032 /opt/test/server.crt
+3884 connections in 2.24s; 1733.93 connections/user sec, bytes read 0
+3884 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo5
+7217 /opt/test/server.crt
+3328 connections in 2.22s; 1499.10 connections/user sec, bytes read 0
+3328 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp128balanced
+542 /opt/test/server.crt
+1915 connections in 2.28s; 839.91 connections/user sec, bytes read 0
+1915 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp128fast
+542 /opt/test/server.crt
+2608 connections in 2.31s; 1129.00 connections/user sec, bytes read 0
+2608 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp128small
+542 /opt/test/server.crt
+683 connections in 2.25s; 303.56 connections/user sec, bytes read 0
+683 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp192balanced
+595 /opt/test/server.crt
+1044 connections in 2.26s; 461.95 connections/user sec, bytes read 0
+1044 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp192fast
+595 /opt/test/server.crt
+1560 connections in 2.25s; 693.33 connections/user sec, bytes read 0
+1560 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp192small
+595 /opt/test/server.crt
+580 connections in 2.55s; 227.45 connections/user sec, bytes read 0
+580 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp256balanced
+648 /opt/test/server.crt
+752 connections in 2.39s; 314.64 connections/user sec, bytes read 0
+752 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp256small
+648 /opt/test/server.crt
+430 connections in 2.45s; 175.51 connections/user sec, bytes read 0
+430 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg128balanced
+509 /opt/test/server.crt
+2444 connections in 2.56s; 954.69 connections/user sec, bytes read 0
+2444 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg128fast
+509 /opt/test/server.crt
+3202 connections in 2.64s; 1212.88 connections/user sec, bytes read 0
+3202 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg128small
+509 /opt/test/server.crt
+971 connections in 2.45s; 396.33 connections/user sec, bytes read 0
+971 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg192balanced
+550 /opt/test/server.crt
+1754 connections in 2.46s; 713.01 connections/user sec, bytes read 0
+1754 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg192fast
+550 /opt/test/server.crt
+1900 connections in 2.44s; 778.69 connections/user sec, bytes read 0
+1900 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg192small
+550 /opt/test/server.crt
+614 connections in 2.30s; 266.96 connections/user sec, bytes read 0
+614 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg256balanced
+579 /opt/test/server.crt
+1185 connections in 2.42s; 489.67 connections/user sec, bytes read 0
+1185 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg256fast
+579 /opt/test/server.crt
+1260 connections in 2.31s; 545.45 connections/user sec, bytes read 0
+1260 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg256small
+579 /opt/test/server.crt
+498 connections in 2.29s; 217.47 connections/user sec, bytes read 0
+498 connections in 6 real seconds, 0 bytes read per connection
+--------
+Mon Sep 16 21:02:52 CEST 2024
+mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ nano measure.sh 
+mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ ./measure.sh 
+Mon Sep 16 21:05:44 CEST 2024
+CA: ed25519
+KEM: x25519
+Time: 5
+Traffic Control: ON (2ms 500mbps)
+--------
+Server: ed25519
+469 /opt/test/server.crt
+566 connections in 0.30s; 1886.67 connections/user sec, bytes read 0
+566 connections in 6 real seconds, 0 bytes read per connection
+Server: ed448
+501 /opt/test/server.crt
+604 connections in 0.39s; 1548.72 connections/user sec, bytes read 0
+604 connections in 6 real seconds, 0 bytes read per connection
+Server: dilithium2
+2220 /opt/test/server.crt
+641 connections in 0.30s; 2136.67 connections/user sec, bytes read 0
+641 connections in 6 real seconds, 0 bytes read per connection
+Server: dilithium3
+3085 /opt/test/server.crt
+583 connections in 0.33s; 1766.67 connections/user sec, bytes read 0
+583 connections in 6 real seconds, 0 bytes read per connection
+Server: dilithium5
+3950 /opt/test/server.crt
+572 connections in 0.33s; 1733.33 connections/user sec, bytes read 0
+572 connections in 6 real seconds, 0 bytes read per connection
+Server: mldsa44
+2220 /opt/test/server.crt
+591 connections in 0.29s; 2037.93 connections/user sec, bytes read 0
+591 connections in 6 real seconds, 0 bytes read per connection
+Server: mldsa65
+3085 /opt/test/server.crt
+578 connections in 0.29s; 1993.10 connections/user sec, bytes read 0
+578 connections in 6 real seconds, 0 bytes read per connection
+Server: mldsa87
+3950 /opt/test/server.crt
+563 connections in 0.30s; 1876.67 connections/user sec, bytes read 0
+563 connections in 6 real seconds, 0 bytes read per connection
+Server: falcon512
+1647 /opt/test/server.crt
+588 connections in 0.30s; 1960.00 connections/user sec, bytes read 0
+588 connections in 6 real seconds, 0 bytes read per connection
+Server: falconpadded512
+1647 /opt/test/server.crt
+574 connections in 0.31s; 1851.61 connections/user sec, bytes read 0
+574 connections in 6 real seconds, 0 bytes read per connection
+Server: falcon1024
+2862 /opt/test/server.crt
+593 connections in 0.35s; 1694.29 connections/user sec, bytes read 0
+593 connections in 6 real seconds, 0 bytes read per connection
+Server: falconpadded1024
+2862 /opt/test/server.crt
+575 connections in 0.34s; 1691.18 connections/user sec, bytes read 0
+575 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake128fsimple
+473 /opt/test/server.crt
+191 connections in 0.35s; 545.71 connections/user sec, bytes read 0
+191 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake128ssimple
+473 /opt/test/server.crt
+14 connections in 0.02s; 700.00 connections/user sec, bytes read 0
+14 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake192fsimple
+493 /opt/test/server.crt
+140 connections in 0.35s; 400.00 connections/user sec, bytes read 0
+140 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake192ssimple
+493 /opt/test/server.crt
+9 connections in 0.01s; 900.00 connections/user sec, bytes read 0
+9 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake256fsimple
+518 /opt/test/server.crt
+74 connections in 0.21s; 352.38 connections/user sec, bytes read 0
+74 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake256ssimple
+518 /opt/test/server.crt
+10 connections in 0.03s; 333.33 connections/user sec, bytes read 0
+10 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo1
+2017 /opt/test/server.crt
+582 connections in 0.31s; 1877.42 connections/user sec, bytes read 0
+582 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo2
+7867 /opt/test/server.crt
+614 connections in 0.32s; 1918.75 connections/user sec, bytes read 0
+614 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo3
+4032 /opt/test/server.crt
+583 connections in 0.42s; 1388.10 connections/user sec, bytes read 0
+583 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo5
+7217 /opt/test/server.crt
+570 connections in 0.40s; 1425.00 connections/user sec, bytes read 0
+570 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp128balanced
+542 /opt/test/server.crt
+502 connections in 0.62s; 809.68 connections/user sec, bytes read 0
+502 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp128fast
+542 /opt/test/server.crt
+525 connections in 0.49s; 1071.43 connections/user sec, bytes read 0
+525 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp128small
+542 /opt/test/server.crt
+348 connections in 1.16s; 300.00 connections/user sec, bytes read 0
+348 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp192balanced
+595 /opt/test/server.crt
+406 connections in 0.87s; 466.67 connections/user sec, bytes read 0
+406 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp192fast
+595 /opt/test/server.crt
+467 connections in 0.70s; 667.14 connections/user sec, bytes read 0
+467 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp192small
+595 /opt/test/server.crt
+291 connections in 1.27s; 229.13 connections/user sec, bytes read 0
+291 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp256balanced
+648 /opt/test/server.crt
+337 connections in 1.09s; 309.17 connections/user sec, bytes read 0
+337 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp256small
+648 /opt/test/server.crt
+253 connections in 1.43s; 176.92 connections/user sec, bytes read 0
+253 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg128balanced
+509 /opt/test/server.crt
+494 connections in 0.51s; 968.63 connections/user sec, bytes read 0
+494 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg128fast
+509 /opt/test/server.crt
+526 connections in 0.40s; 1315.00 connections/user sec, bytes read 0
+526 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg128small
+509 /opt/test/server.crt
+381 connections in 0.95s; 401.05 connections/user sec, bytes read 0
+381 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg192balanced
+550 /opt/test/server.crt
+510 connections in 0.76s; 671.05 connections/user sec, bytes read 0
+510 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg192fast
+550 /opt/test/server.crt
+506 connections in 0.70s; 722.86 connections/user sec, bytes read 0
+506 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg192small
+550 /opt/test/server.crt
+309 connections in 1.18s; 261.86 connections/user sec, bytes read 0
+309 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg256balanced
+579 /opt/test/server.crt
+416 connections in 0.88s; 472.73 connections/user sec, bytes read 0
+416 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg256fast
+579 /opt/test/server.crt
+454 connections in 0.86s; 527.91 connections/user sec, bytes read 0
+454 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg256small
+579 /opt/test/server.crt
+280 connections in 1.28s; 218.75 connections/user sec, bytes read 0
+280 connections in 6 real seconds, 0 bytes read per connection
+--------
+Mon Sep 16 21:11:39 CEST 2024
+mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ nano measure.sh 
+mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ ./measure.sh 
+Mon Sep 16 21:14:39 CEST 2024
+CA: ed25519
+KEM: x25519
+Time: 5
+Traffic Control: ON (20ms 500mbps)
+--------
+Server: ed25519
+469 /opt/test/server.crt
+67 connections in 0.04s; 1675.00 connections/user sec, bytes read 0
+67 connections in 6 real seconds, 0 bytes read per connection
+Server: ed448
+501 /opt/test/server.crt
+68 connections in 0.07s; 971.43 connections/user sec, bytes read 0
+68 connections in 6 real seconds, 0 bytes read per connection
+Server: dilithium2
+2220 /opt/test/server.crt
+69 connections in 0.05s; 1380.00 connections/user sec, bytes read 0
+69 connections in 6 real seconds, 0 bytes read per connection
+Server: dilithium3
+3085 /opt/test/server.crt
+72 connections in 0.06s; 1200.00 connections/user sec, bytes read 0
+72 connections in 6 real seconds, 0 bytes read per connection
+Server: dilithium5
+3950 /opt/test/server.crt
+73 connections in 0.04s; 1825.00 connections/user sec, bytes read 0
+73 connections in 6 real seconds, 0 bytes read per connection
+Server: mldsa44
+2220 /opt/test/server.crt
+72 connections in 0.04s; 1800.00 connections/user sec, bytes read 0
+72 connections in 6 real seconds, 0 bytes read per connection
+Server: mldsa65
+3085 /opt/test/server.crt
+72 connections in 0.05s; 1440.00 connections/user sec, bytes read 0
+72 connections in 6 real seconds, 0 bytes read per connection
+Server: mldsa87
+3950 /opt/test/server.crt
+72 connections in 0.06s; 1200.00 connections/user sec, bytes read 0
+72 connections in 6 real seconds, 0 bytes read per connection
+Server: falcon512
+1647 /opt/test/server.crt
+70 connections in 0.06s; 1166.67 connections/user sec, bytes read 0
+70 connections in 6 real seconds, 0 bytes read per connection
+Server: falconpadded512
+1647 /opt/test/server.crt
+71 connections in 0.05s; 1420.00 connections/user sec, bytes read 0
+71 connections in 6 real seconds, 0 bytes read per connection
+Server: falcon1024
+2862 /opt/test/server.crt
+71 connections in 0.06s; 1183.33 connections/user sec, bytes read 0
+71 connections in 6 real seconds, 0 bytes read per connection
+Server: falconpadded1024
+2862 /opt/test/server.crt
+70 connections in 0.04s; 1750.00 connections/user sec, bytes read 0
+70 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake128fsimple
+473 /opt/test/server.crt
+57 connections in 0.12s; 475.00 connections/user sec, bytes read 0
+57 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake128ssimple
+473 /opt/test/server.crt
+12 connections in 0.01s; 1200.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake192fsimple
+493 /opt/test/server.crt
+51 connections in 0.13s; 392.31 connections/user sec, bytes read 0
+51 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake192ssimple
+493 /opt/test/server.crt
+8 connections in 0.02s; 400.00 connections/user sec, bytes read 0
+8 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake256fsimple
+518 /opt/test/server.crt
+38 connections in 0.10s; 380.00 connections/user sec, bytes read 0
+38 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake256ssimple
+518 /opt/test/server.crt
+9 connections in 0.02s; 450.00 connections/user sec, bytes read 0
+9 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo1
+2017 /opt/test/server.crt
+66 connections in 0.06s; 1100.00 connections/user sec, bytes read 0
+66 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo2
+7867 /opt/test/server.crt
+71 connections in 0.04s; 1775.00 connections/user sec, bytes read 0
+71 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo3
+4032 /opt/test/server.crt
+70 connections in 0.06s; 1166.67 connections/user sec, bytes read 0
+70 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo5
+7217 /opt/test/server.crt
+68 connections in 0.05s; 1360.00 connections/user sec, bytes read 0
+68 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp128balanced
+542 /opt/test/server.crt
+64 connections in 0.09s; 711.11 connections/user sec, bytes read 0
+64 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp128fast
+542 /opt/test/server.crt
+67 connections in 0.07s; 957.14 connections/user sec, bytes read 0
+67 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp128small
+542 /opt/test/server.crt
+61 connections in 0.20s; 305.00 connections/user sec, bytes read 0
+61 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp192balanced
+595 /opt/test/server.crt
+65 connections in 0.16s; 406.25 connections/user sec, bytes read 0
+65 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp192fast
+595 /opt/test/server.crt
+68 connections in 0.12s; 566.67 connections/user sec, bytes read 0
+68 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp192small
+595 /opt/test/server.crt
+59 connections in 0.28s; 210.71 connections/user sec, bytes read 0
+59 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp256balanced
+648 /opt/test/server.crt
+66 connections in 0.24s; 275.00 connections/user sec, bytes read 0
+66 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp256small
+648 /opt/test/server.crt
+61 connections in 0.38s; 160.53 connections/user sec, bytes read 0
+61 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg128balanced
+509 /opt/test/server.crt
+66 connections in 0.09s; 733.33 connections/user sec, bytes read 0
+66 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg128fast
+509 /opt/test/server.crt
+69 connections in 0.06s; 1150.00 connections/user sec, bytes read 0
+69 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg128small
+509 /opt/test/server.crt
+64 connections in 0.19s; 336.84 connections/user sec, bytes read 0
+64 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg192balanced
+550 /opt/test/server.crt
+71 connections in 0.11s; 645.45 connections/user sec, bytes read 0
+71 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg192fast
+550 /opt/test/server.crt
+66 connections in 0.11s; 600.00 connections/user sec, bytes read 0
+66 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg192small
+550 /opt/test/server.crt
+63 connections in 0.26s; 242.31 connections/user sec, bytes read 0
+63 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg256balanced
+579 /opt/test/server.crt
+66 connections in 0.15s; 440.00 connections/user sec, bytes read 0
+66 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg256fast
+579 /opt/test/server.crt
+65 connections in 0.14s; 464.29 connections/user sec, bytes read 0
+65 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg256small
+579 /opt/test/server.crt
+65 connections in 0.31s; 209.68 connections/user sec, bytes read 0
+65 connections in 6 real seconds, 0 bytes read per connection
+--------
+Mon Sep 16 21:20:33 CEST 2024
+mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ nano measure.sh 
+mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ ./measure.sh 
+Mon Sep 16 21:34:20 CEST 2024
+CA: ed25519
+KEM: x25519
+Time: 5
+Traffic Control: ON (120ms 500mbps)
+--------
+Server: ed25519
+469 /opt/test/server.crt
+11 connections in 0.01s; 1100.00 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: ed448
+501 /opt/test/server.crt
+12 connections in 0.01s; 1200.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: dilithium2
+2220 /opt/test/server.crt
+12 connections in 0.02s; 600.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: dilithium3
+3085 /opt/test/server.crt
+13 connections in 0.02s; 650.00 connections/user sec, bytes read 0
+13 connections in 6 real seconds, 0 bytes read per connection
+Server: dilithium5
+3950 /opt/test/server.crt
+11 connections in 0.01s; 1100.00 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: mldsa44
+2220 /opt/test/server.crt
+12 connections in 0.01s; 1200.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: mldsa65
+3085 /opt/test/server.crt
+11 connections in 0.02s; 550.00 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: mldsa87
+3950 /opt/test/server.crt
+12 connections in 0.01s; 1200.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: falcon512
+1647 /opt/test/server.crt
+12 connections in 0.01s; 1200.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: falconpadded512
+1647 /opt/test/server.crt
+12 connections in 0.02s; 600.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: falcon1024
+2862 /opt/test/server.crt
+11 connections in 0.02s; 550.00 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: falconpadded1024
+2862 /opt/test/server.crt
+11 connections in 0.01s; 1100.00 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake128fsimple
+473 /opt/test/server.crt
+11 connections in 0.02s; 550.00 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake128ssimple
+473 /opt/test/server.crt
+6 connections in 0.02s; 300.00 connections/user sec, bytes read 0
+6 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake192fsimple
+493 /opt/test/server.crt
+11 connections in 0.03s; 366.67 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake192ssimple
+493 /opt/test/server.crt
+5 connections in 0.01s; 500.00 connections/user sec, bytes read 0
+5 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake256fsimple
+518 /opt/test/server.crt
+10 connections in 0.03s; 333.33 connections/user sec, bytes read 0
+10 connections in 6 real seconds, 0 bytes read per connection
+Server: sphincsshake256ssimple
+518 /opt/test/server.crt
+5 connections in 0.01s; 500.00 connections/user sec, bytes read 0
+5 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo1
+2017 /opt/test/server.crt
+12 connections in 0.01s; 1200.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo2
+7867 /opt/test/server.crt
+12 connections in 0.02s; 600.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo3
+4032 /opt/test/server.crt
+11 connections in 0.01s; 1100.00 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: mayo5
+7217 /opt/test/server.crt
+12 connections in 0.02s; 600.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp128balanced
+542 /opt/test/server.crt
+12 connections in 0.02s; 600.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp128fast
+542 /opt/test/server.crt
+11 connections in 0.02s; 550.00 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp128small
+542 /opt/test/server.crt
+11 connections in 0.04s; 275.00 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp192balanced
+595 /opt/test/server.crt
+11 connections in 0.03s; 366.67 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp192fast
+595 /opt/test/server.crt
+12 connections in 0.03s; 400.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp192small
+595 /opt/test/server.crt
+11 connections in 0.05s; 220.00 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp256balanced
+648 /opt/test/server.crt
+12 connections in 0.03s; 400.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdp256small
+648 /opt/test/server.crt
+11 connections in 0.08s; 137.50 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg128balanced
+509 /opt/test/server.crt
+13 connections in 0.02s; 650.00 connections/user sec, bytes read 0
+13 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg128fast
+509 /opt/test/server.crt
+12 connections in 0.02s; 600.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg128small
+509 /opt/test/server.crt
+12 connections in 0.04s; 300.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg192balanced
+550 /opt/test/server.crt
+11 connections in 0.03s; 366.67 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg192fast
+550 /opt/test/server.crt
+12 connections in 0.02s; 600.00 connections/user sec, bytes read 0
+12 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg192small
+550 /opt/test/server.crt
+11 connections in 0.05s; 220.00 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg256balanced
+579 /opt/test/server.crt
+11 connections in 0.03s; 366.67 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg256fast
+579 /opt/test/server.crt
+11 connections in 0.02s; 550.00 connections/user sec, bytes read 0
+11 connections in 6 real seconds, 0 bytes read per connection
+Server: CROSSrsdpg256small
+579 /opt/test/server.crt
+13 connections in 0.06s; 216.67 connections/user sec, bytes read 0
+13 connections in 6 real seconds, 0 bytes read per connection
+--------
+Mon Sep 16 21:40:15 CEST 2024
+mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ 
+
