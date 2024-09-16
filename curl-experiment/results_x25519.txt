@@ -1,4 +1,6 @@
-mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ ./measure.sh 
+########################################################################
+############################ NO DELAY ##################################
+########################################################################
 Mon Sep 16 20:57:54 CEST 2024
 CA: ed25519
 KEM: x25519
@@ -163,8 +165,9 @@ Server: CROSSrsdpg256small
 498 connections in 6 real seconds, 0 bytes read per connection
 --------
 Mon Sep 16 21:02:52 CEST 2024
-mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ nano measure.sh 
-mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ ./measure.sh 
+########################################################################
+############################# 2 ms #####################################
+########################################################################
 Mon Sep 16 21:05:44 CEST 2024
 CA: ed25519
 KEM: x25519
@@ -329,8 +332,9 @@ Server: CROSSrsdpg256small
 280 connections in 6 real seconds, 0 bytes read per connection
 --------
 Mon Sep 16 21:11:39 CEST 2024
-mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ nano measure.sh 
-mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ ./measure.sh 
+########################################################################
+############################# 20 ms ####################################
+########################################################################
 Mon Sep 16 21:14:39 CEST 2024
 CA: ed25519
 KEM: x25519
@@ -495,8 +499,9 @@ Server: CROSSrsdpg256small
 65 connections in 6 real seconds, 0 bytes read per connection
 --------
 Mon Sep 16 21:20:33 CEST 2024
-mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ nano measure.sh 
-mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ ./measure.sh 
+########################################################################
+############################# 120 ms ###################################
+########################################################################
 Mon Sep 16 21:34:20 CEST 2024
 CA: ed25519
 KEM: x25519
