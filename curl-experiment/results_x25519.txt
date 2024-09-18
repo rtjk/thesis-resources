@@ -666,5 +666,3 @@ Server: CROSSrsdpg256small
 13 connections in 6 real seconds, 0 bytes read per connection
 --------
 Mon Sep 16 21:40:15 CEST 2024
-mgianvecchio@barenghi-vm-2:~/pqc/MEASURE/curl$ 
-
