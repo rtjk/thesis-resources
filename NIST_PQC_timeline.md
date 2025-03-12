@@ -23,3 +23,5 @@
 <!-- https://csrc.nist.gov/pubs/fips/186-5/final -->
 <!-- https://csrc.nist.gov/Projects/cryptographic-standards-and-guidelines -->
 <!-- https://csrc.nist.gov/projects/threshold-cryptography -->
+<!-- https://csrc.nist.gov/pubs/fips/202/final -->
+<!-- https://csrc.nist.gov/pubs/sp/800/185/final -->
