@@ -2,7 +2,7 @@
 
 | Year  | Month     | Event                                                                                             | URL   |
 | --    | --        | --                                                                                                | :--:    |
-| 2016  | December  | Round 1 ound starts                                                                               | [☍](https://csrc.nist.gov/news/2016/public-key-post-quantum-cryptographic-algorithms)    |    |
+| 2016  | December  | Round 1 starts                                                                               | [☍](https://csrc.nist.gov/news/2016/public-key-post-quantum-cryptographic-algorithms)    |    |
 | 2017  | November  | Round 1 deadline                                                                                  |     | 
 | 2017  | December  | Round 1 comments: 82 submission, 69 accepted                                                      | [☍](https://csrc.nist.gov/Projects/post-quantum-cryptography/post-quantum-cryptography-standardization/round-1-submissions)    |
 | 2019  | January   | Round 1 results: 26 algorithms advance <br> Round 2 starts                                        | [☍](https://csrc.nist.gov/news/2019/pqc-standardization-process-2nd-round-candidates)    |
