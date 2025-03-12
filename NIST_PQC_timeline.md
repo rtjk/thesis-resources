@@ -20,3 +20,6 @@
 | ?     | ?         | Falcon is standardized as FN-DSA (FIPS 206)                                                       | ☍    |
 
 
+<!-- https://csrc.nist.gov/pubs/fips/186-5/final -->
+<!-- https://csrc.nist.gov/Projects/cryptographic-standards-and-guidelines -->
+<!-- https://csrc.nist.gov/projects/threshold-cryptography -->
